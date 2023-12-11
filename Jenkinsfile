@@ -1,6 +1,6 @@
 pipeline {
     stages{
-        stage('build stage) {
+        stage('build stage') {
         sh 'echo "first build"'
         }
     }
