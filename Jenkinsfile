@@ -1,7 +1,9 @@
 pipeline {
-    stages{
-        stage('build stage') {
-        sh 'echo "first build"'
+    stages {
+        stage('Build') {
+            steps {
+                sh 'echo "build status"'
+            }
         }
     }
 }
